@@ -37,3 +37,15 @@ if ! test -d ./output; then
   echo "No output folder. Generating folder."
   mkdir ./output;
 fi
+
+
+# Change to the directory containing the Python scripts
+cd ./python;
+
+# Run the Python scripts
+
+echo "Running cluster-generation.py";
+python cluster-generation.py;
+
+
+echo "Complete! Check /output for clusters.csv";
