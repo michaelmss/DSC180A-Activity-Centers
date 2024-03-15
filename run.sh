@@ -29,6 +29,7 @@ download_sangis () {
 download "tracts.csv" "https://opendata.sandag.org/api/views/g3xq-yubj/rows.csv?date=20231211&accessType=DOWNLOAD"
 download "ca_od_main_JT00_2021.csv.gz" "https://lehd.ces.census.gov/data/lodes/LODES8/ca/od/ca_od_main_JT00_2021.csv.gz"
 download "Census_Blocks_20231127.csv" "https://opendata.sandag.org/api/views/bevn-aqff/rows.csv?date=20231211&accessType=DOWNLOAD"
+download "ca_wac_S000_JT00_2021.csv.gz" "https://lehd.ces.census.gov/data/lodes/LODES8/ca/wac/ca_wac_S000_JT00_2021.csv.gz"
 # download_sangis "Business_Enterprise_Zones_SD.ZIP" "https://rdw.sandag.org/Account/GetFSFile.aspx?dir=Business&Name=Business_Enterprise_Zones_SD.ZIP"
 # download_sangis "BUSINESS_SITES.zip" "https://rdw.sandag.org/Account/GetFSFile.aspx?dir=Business&Name=BUSINESS_SITES.zip"
 
